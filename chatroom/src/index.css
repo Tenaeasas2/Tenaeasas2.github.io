@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+img,
+video {
+
+  -webkit-user-drag: none;
+
+  -webkit-user-select: none;
+
+  -moz-user-select: none;
+
+  -ms-user-select: none;
+
+  user-select: none;
+
+}
+
+body .el-popover {
+  position: absolute;
+  background: #FFF;
+  border-radius: 4px;
+  border: 1px solid #EBEEF5;
+  padding: 0;
+  z-index: 2000;
+  color: #606266;
+  line-height: 1.4;
+  text-align: justify;
+  font-size: 14px;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .1);
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}

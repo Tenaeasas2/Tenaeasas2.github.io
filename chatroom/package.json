@@ -1,0 +1,33 @@
+{
+  "name": "chatroom",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/marked": "^6.0.0",
+    "axios": "^1.8.3",
+    "element-ui": "^2.15.14",
+    "hammerjs": "^2.0.8",
+    "highlight.js": "^11.11.1",
+    "markdown-it": "^14.1.0",
+    "marked": "^15.0.7",
+    "marked-highlight": "^2.2.1",
+    "socket.io-client": "^4.8.1",
+    "vant": "^2.13.6",
+    "vue": "2",
+    "vue-markdown": "^2.2.4",
+    "vue-router": "3",
+    "vuex": "3"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.8",
+    "gh-pages": "^6.3.0"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "start": "node server.js",
+    "deploy": "gh-pages -d chat-room"
+  },
+  "homepage": "https://Tenaeasas2.github.io/chatroom"
+}
