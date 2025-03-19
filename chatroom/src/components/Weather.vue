@@ -31,11 +31,26 @@ export default {
     }
   },
   created () {
-    this.weather = {
-      temp: 25,
-      description: '晴天',
-      main: 'clear'
-    };
+    this.generateRandomWeather();
+    setInterval(() => {
+      this.generateRandomWeather();
+    }, 60000); // 每分钟更新一次
+  },
+  methods: {
+    generateRandomWeather () {
+      const weatherTypes = [
+        { main: 'clear', description: '晴天', temp: this.getRandomTemp(20, 35) },
+        { main: 'clouds', description: '多云', temp: this.getRandomTemp(15, 30) },
+        { main: 'rain', description: '雨天', temp: this.getRandomTemp(10, 25) },
+        { main: 'snow', description: '下雪', temp: this.getRandomTemp(-5, 5) },
+        { main: 'thunderstorm', description: '雷阵雨', temp: this.getRandomTemp(15, 25) },
+        { main: 'mist', description: '雾天', temp: this.getRandomTemp(5, 15) }
+      ];
+      this.weather = weatherTypes[Math.floor(Math.random() * weatherTypes.length)];
+    },
+    getRandomTemp (min, max) {
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
   }
 };
 </script>

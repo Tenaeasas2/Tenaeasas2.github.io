@@ -116,7 +116,6 @@ export default {
       ],
       list: ['😀', '😁', '😂', '🤣', '😃', '😄', '😅', '😆', '😉', '😊', '😋', '😎', '😍', '😘', '😗', '😙', '😚', '🙂', '🤗', '🤩'],
       activeCategory: 0,
-
       sendSound: new Audio(require('../assets/MP3/send.mp3')),
       receiveSound: new Audio(require('../assets/MP3/send.mp3'))
     }

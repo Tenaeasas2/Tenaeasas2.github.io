@@ -10,10 +10,13 @@
         <Weather />
         <!-- <el-icon name="search" class="nav-icon"></el-icon> -->
       </div>
+
+
     </header>
 
     <!-- 内容滚动区域 -->
     <main class="content-area">
+      <HotWords />
       <router-view></router-view>
 
     </main>
@@ -32,11 +35,13 @@
 
 <script>
 import Weather from '../components/Weather.vue'
+import HotWords from '../components/HotWords.vue'
 import { Toast } from 'vant';
 
 export default {
   components: {
-    Weather
+    Weather,
+    HotWords
   },
   data () {
     return {
@@ -44,6 +49,7 @@ export default {
       tabs: [
         { icon: 'setting', label: '主页', path: '/home' },
         { icon: 'chat-round', label: 'AI', path: '/AIChat' },
+        { icon: 'chat-round', label: '图片', path: '/ImageGallery' },
         // { icon: 'setting', label: '聊天', path: '/chat' }
       ],
       options: [

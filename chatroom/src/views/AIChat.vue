@@ -121,7 +121,7 @@ export default {
 
 <style scoped>
 .ai-chat-container {
-  height: 100%;
+  height: calc(100% - 40px);
   display: flex;
   flex-direction: column;
 }
@@ -155,7 +155,7 @@ export default {
   font-size: 1.5em;
   display: flex;
   align-items: center;
-  gap: 12px;
+  /* gap: 12px; */
 }
 
 .header h2::before {
@@ -174,7 +174,6 @@ export default {
 
   .header h2 {
     font-size: 1.2em;
-    gap: 8px;
   }
 
   .header h2::before {

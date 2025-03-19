@@ -41,6 +41,11 @@ const routes = [
         name: 'home',
         component: () => import('@/views/home.vue')
       },
+      {
+        path: '/imageGallery',
+        name: 'imageGallery',
+        component: () => import('@/views/ImageGallery.vue')
+      },
     ]
   },
 
