@@ -136,7 +136,6 @@ export default {
   z-index: 2;
   flex: 1;
   overflow-y: auto;
-  padding: 20px;
 }
 
 .ai-chat-container .header {
