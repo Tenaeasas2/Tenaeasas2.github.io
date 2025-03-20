@@ -1,0 +1,20 @@
+// vite.config.js
+import { defineConfig } from "file:///E:/%E6%B5%8B%E8%AF%95/html/github/Tenaeasas2.github.io/otome-game-ai/node_modules/vite/dist/node/index.js";
+import vue from "file:///E:/%E6%B5%8B%E8%AF%95/html/github/Tenaeasas2.github.io/otome-game-ai/node_modules/@vitejs/plugin-vue/dist/index.mjs";
+import { fileURLToPath } from "node:url";
+var __vite_injected_original_import_meta_url = "file:///E:/%E6%B5%8B%E8%AF%95/html/github/Tenaeasas2.github.io/otome-game-ai/vite.config.js";
+var vite_config_default = defineConfig({
+  plugins: [vue()],
+  resolve: {
+    alias: {
+      "@": fileURLToPath(new URL("./src", __vite_injected_original_import_meta_url)),
+      "@/components": fileURLToPath(new URL("./src/components", __vite_injected_original_import_meta_url)),
+      "@/stores": fileURLToPath(new URL("./src/stores", __vite_injected_original_import_meta_url)),
+      "@/views": fileURLToPath(new URL("./src/views", __vite_injected_original_import_meta_url))
+    }
+  }
+});
+export {
+  vite_config_default as default
+};
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsidml0ZS5jb25maWcuanMiXSwKICAic291cmNlc0NvbnRlbnQiOiBbImNvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9kaXJuYW1lID0gXCJFOlxcXFxcdTZENEJcdThCRDVcXFxcaHRtbFxcXFxnaXRodWJcXFxcVGVuYWVhc2FzMi5naXRodWIuaW9cXFxcb3RvbWUtZ2FtZS1haVwiO2NvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9maWxlbmFtZSA9IFwiRTpcXFxcXHU2RDRCXHU4QkQ1XFxcXGh0bWxcXFxcZ2l0aHViXFxcXFRlbmFlYXNhczIuZ2l0aHViLmlvXFxcXG90b21lLWdhbWUtYWlcXFxcdml0ZS5jb25maWcuanNcIjtjb25zdCBfX3ZpdGVfaW5qZWN0ZWRfb3JpZ2luYWxfaW1wb3J0X21ldGFfdXJsID0gXCJmaWxlOi8vL0U6LyVFNiVCNSU4QiVFOCVBRiU5NS9odG1sL2dpdGh1Yi9UZW5hZWFzYXMyLmdpdGh1Yi5pby9vdG9tZS1nYW1lLWFpL3ZpdGUuY29uZmlnLmpzXCI7aW1wb3J0IHsgZGVmaW5lQ29uZmlnIH0gZnJvbSAndml0ZSdcbmltcG9ydCB2dWUgZnJvbSAnQHZpdGVqcy9wbHVnaW4tdnVlJ1xuaW1wb3J0IHsgZmlsZVVSTFRvUGF0aCB9IGZyb20gJ25vZGU6dXJsJ1xuXG4vLyBodHRwczovL3ZpdGUuZGV2L2NvbmZpZy9cbmV4cG9ydCBkZWZhdWx0IGRlZmluZUNvbmZpZyh7XG4gIHBsdWdpbnM6IFt2dWUoKV0sXG4gIHJlc29sdmU6IHtcbiAgICBhbGlhczoge1xuICAgICAgJ0AnOiBmaWxlVVJMVG9QYXRoKG5ldyBVUkwoJy4vc3JjJywgaW1wb3J0Lm1ldGEudXJsKSksXG4gICAgICAnQC9jb21wb25lbnRzJzogZmlsZVVSTFRvUGF0aChuZXcgVVJMKCcuL3NyYy9jb21wb25lbnRzJywgaW1wb3J0Lm1ldGEudXJsKSksXG4gICAgICAnQC9zdG9yZXMnOiBmaWxlVVJMVG9QYXRoKG5ldyBVUkwoJy4vc3JjL3N0b3JlcycsIGltcG9ydC5tZXRhLnVybCkpLFxuICAgICAgJ0Avdmlld3MnOiBmaWxlVVJMVG9QYXRoKG5ldyBVUkwoJy4vc3JjL3ZpZXdzJywgaW1wb3J0Lm1ldGEudXJsKSlcbiAgICB9XG4gIH1cbn0pXG4iXSwKICAibWFwcGluZ3MiOiAiO0FBQTBXLFNBQVMsb0JBQW9CO0FBQ3ZZLE9BQU8sU0FBUztBQUNoQixTQUFTLHFCQUFxQjtBQUY2TCxJQUFNLDJDQUEyQztBQUs1USxJQUFPLHNCQUFRLGFBQWE7QUFBQSxFQUMxQixTQUFTLENBQUMsSUFBSSxDQUFDO0FBQUEsRUFDZixTQUFTO0FBQUEsSUFDUCxPQUFPO0FBQUEsTUFDTCxLQUFLLGNBQWMsSUFBSSxJQUFJLFNBQVMsd0NBQWUsQ0FBQztBQUFBLE1BQ3BELGdCQUFnQixjQUFjLElBQUksSUFBSSxvQkFBb0Isd0NBQWUsQ0FBQztBQUFBLE1BQzFFLFlBQVksY0FBYyxJQUFJLElBQUksZ0JBQWdCLHdDQUFlLENBQUM7QUFBQSxNQUNsRSxXQUFXLGNBQWMsSUFBSSxJQUFJLGVBQWUsd0NBQWUsQ0FBQztBQUFBLElBQ2xFO0FBQUEsRUFDRjtBQUNGLENBQUM7IiwKICAibmFtZXMiOiBbXQp9Cg==

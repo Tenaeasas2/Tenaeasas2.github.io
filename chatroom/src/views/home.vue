@@ -53,7 +53,7 @@ export default {
 
 
 .my-swipe {
-  height: 150px;
+  height: 220px;
 }
 
 .my-swipe .van-swipe-item {
