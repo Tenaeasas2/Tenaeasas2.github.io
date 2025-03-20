@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import DialogScene from '@/components/DialogScene.vue'
-import { useAppStore } from '@/stores/app'
+
 
 export const router = createRouter({
   history: createWebHistory(),
