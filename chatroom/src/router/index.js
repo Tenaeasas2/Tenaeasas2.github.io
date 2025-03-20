@@ -24,7 +24,7 @@ const routes = [
     path: '/',
     name: 'index',
     component: () => import('@/views/index.vue'),
-    redirect: '/home',
+    // redirect: '/home',
     children: [
       {
         path: '/AIChat',
