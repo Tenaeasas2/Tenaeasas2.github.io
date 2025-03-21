@@ -7,6 +7,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd())
 
   return {
+    publicPath: '/otomeGame/',
     plugins: [vue()],
     server: {
       host: '0.0.0.0',
@@ -37,6 +38,7 @@ export default defineConfig(({ mode }) => {
       }
     },
     build: {
+      outDir: 'otomeGame',
       assetsDir: 'static',
       assetsInlineLimit: 4096
     },
