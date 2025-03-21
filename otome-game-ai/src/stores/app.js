@@ -5,27 +5,27 @@ export const useAppStore = defineStore('app', {
     theme: 'light',
     characters: [
       {
-        name: '樱井苍',
+        name: '李泽言',
         image: '/otomeGame/images/character1.png',
-        personality: '傲娇贵公子',
+        personality: '霸道总裁',
         voiceSample: 'sample1.mp3'
       },
       {
-        name: '神崎凛',
+        name: '许墨',
         image: '/otomeGame/images/character2.png',
-        personality: '温柔学长',
+        personality: '温柔教授',
         voiceSample: 'sample2.mp3'
       },
       {
-        name: '藤原悠真',
+        name: '白起',
         image: '/otomeGame/images/character3.png',
-        personality: '霸道总裁',
+        personality: '热血警察',
         voiceSample: 'sample3.mp3'
       },
       {
-        name: '橘朔也',
+        name: '周棋洛',
         image: '/otomeGame/images/character4.png',
-        personality: '病娇艺术家',
+        personality: '阳光偶像',
         voiceSample: 'sample4.mp3'
       }
     ],

@@ -1,6 +1,8 @@
 import { defineConfig, loadEnv } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import { fileURLToPath } from 'node:url'
+import Components from 'unplugin-vue-components/vite'
+import { VantResolver } from 'unplugin-vue-components/resolvers'
 
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => {
@@ -8,7 +10,13 @@ export default defineConfig(({ mode }) => {
 
   return {
     base: '/otomeGame/',
-    plugins: [vue()],
+    // 在plugins数组中添加
+    plugins: [
+      vue(),
+      Components({
+        resolvers: [VantResolver()],
+      })
+    ],
     server: {
       host: '0.0.0.0',
       port: 3000,
